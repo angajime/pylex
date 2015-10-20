@@ -39,9 +39,9 @@ for regex in regex_list:
 	for test in test_list:
 		pattern = re.compile(regex)
 		if pattern.match(test):
-			print "{:<20} {:<10} {color} {:>5} {clear}".format(regex, test, '[PASS]', color=bcolors.OKGREEN, clear=bcolors.ENDC)
+			print "{:<20} -> {:<10} {color} {:>5} {clear}".format(regex, test, '[PASS]', color=bcolors.OKGREEN, clear=bcolors.ENDC)
 		else:
-			print "{:<20} {:<10} {color} {:>5} {clear}".format(regex, test, '[FAIL]', color=bcolors.FAIL, clear=bcolors.ENDC)
+			print "{:<20} -> {:<10} {color} {:>5} {clear}".format(regex, test, '[FAIL]', color=bcolors.FAIL, clear=bcolors.ENDC)
 
 
 
