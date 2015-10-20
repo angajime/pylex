@@ -1,8 +1,12 @@
-# pylex
+# Pylex
 
 Fast and simple regex matcher.
 
-# use
+# Why
+
+I made this fast and usefull script for my language processors class.
+
+# How-to
 ```
 > python pylex.py input.in
 ```
